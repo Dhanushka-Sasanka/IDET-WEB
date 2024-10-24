@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    display: flex;
+    font-family: "Cormorant", serif !important;
+    flex-direction: row;
+}
+
+.sidebar{
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    background-color: rgb(11, 14, 36);
+}
+
+.sidebar ul{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.sidebar ul li{
+   
+    list-style: none;
+    /* text-decoration: none; */
+    
+    padding: 15px;
+}
+
+.sidebar ul li a{
+
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    
+    
+}
+
+.sidebar ul li:hover{
+    /* font-size: 1.7rem; */
+    background-color: blue;
+   
+}
+
+.sidebar ul li:last-child(6) {
+    background-color: #FF6347; /* Tomato color */
+    align-self: center;
+}
+
+
+.brand-name{
+    color: white;
+    align-content: center;
+}
+
+.main-container{
+    width: 100%;
+    background-color: rgb(197, 197, 197);
+    height: 100vh;
+    margin-left: 300px;
+    overflow-y: auto;
+    /* flex-grow: 1; */
+}
